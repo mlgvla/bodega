@@ -1,90 +1,91 @@
-html, body {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Ultra', serif;
-    color: #1E1E1E;
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Ultra", serif;
+  color: #1e1e1e;
 }
 
 .root {
-    width: 100%;
+  width: 100%;
 }
 
 header {
-    background-color: #006BA6;
-    padding: 2rem 2rem 2rem 2rem; 
+  background-color: #006ba6;
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 header img {
-    width:20%;
+  width: 20%;
 }
 
 .container {
-    width:100%;
-    display:flex;
+  width: 100%;
+  display: flex;
 }
 
 #reorder-container {
-    width:20%;
-    height:auto;
-    padding-left:2rem;
-    padding-right:2rem;
-    background-color: #FFBC42;
-    padding-bottom: 2rem;
+  width: 20%;
+  height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #ffbc42;
+  padding-bottom: 2rem;
 }
 
 #reorder-container div {
-    display:flex;
-    flex-wrap: wrap;
-    gap: .5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 #current-inventory {
-    width:80%;
-    height:auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+  width: 80%;
+  height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
 }
 
 #current-inventory div {
-    display:flex;
-    flex-wrap: wrap;
-    gap:.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .card {
-    border: 1px solid black;
-    border-radius: 4px;
-    background-color: white;
-    align-items: center;
-    padding:1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  align-items: center;
+  padding: 1rem;
 }
 
 #current-inventory .card {
-    display:flex;
-    flex-direction: column;
-    width:15rem;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
 }
 
 #reorder-container .card {
-    width:100%;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    padding:1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
 }
 
 .card img {
-    width:6em;
-    height:6em;
+  width: 6em;
+  height: 6em;
 }
 
 button {
-    border: 1px solid black;
-    border-radius: 4px;
-    background-color: white;
-    background-color: #F15946;
-    color: white;
-    font-family: 'Ultra', serif;
-    font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  background-color: #f15946;
+  color: white;
+  font-family: "Ultra", serif;
+  font-size: 1rem;
 }
